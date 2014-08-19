@@ -1,0 +1,238 @@
+// variables
+@teal: #1FBEC6;
+@orange: #FC8800;
+@purple: #9006E5;
+@pink: #F90768;
+@offwhite: #eeedee;
+@mid: #ba2e5e;
+
+// boilerplate
+.transition-animation (@prop: all, @time: 1s, @ease: linear) {
+    -webkit-transition: @prop @time @ease;
+    -moz-transition: @prop @time @ease;
+    -o-transition: @prop @time @ease;
+    -ms-transition: @prop @time @ease;
+    transition: @prop @time @ease;
+}
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:before {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul {
+    list-style-type: none;
+}
+html, body {
+    height: 100%;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?scmtzt');
+    src:url('fonts/icomoon.eot?#iefixscmtzt') format('embedded-opentype'),
+        url('fonts/icomoon.woff?scmtzt') format('woff'),
+        url('fonts/icomoon.ttf?scmtzt') format('truetype'),
+        url('fonts/icomoon.svg?scmtzt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon () {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*================================================*/
+/* UNIVERSAL */
+/*================================================*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: @offwhite;
+    background: @orange;
+    background: -moz-linear-gradient(-45deg,  @orange 0%, @purple 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,@orange), color-stop(100%,@purple));
+    background: -webkit-linear-gradient(-45deg,  @orange 0%, @purple 100%);
+    background: -o-linear-gradient(-45deg,  @orange 0%, @purple 100%);
+    background: -ms-linear-gradient(-45deg,  @orange 0%, @purple 100%);
+    background: linear-gradient(135deg,  @orange 0%, @purple 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@orange', endColorstr='@purple',GradientType=1 );
+    background-attachment: fixed;
+    font-size: 16px;
+}
+
+.topBar {
+    width: 100%;
+    .header {
+        // transform: rotate(-10deg);
+        // -webkit-transform: rotate(-10deg);
+        // -moz-transform: rotate(-15deg);
+        // -o-transform: rotate(-15deg);
+        // -ms-transform: rotate(-15deg);
+        padding: 3em 0;
+        text-align: center;
+    }
+
+    .banner {
+        font-size: 80px;
+        letter-spacing: 0.2em;
+        font-weight: 100;
+        position: relative;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow:0px 0px 0 rgba(255,255,255,0.5),
+            0.06em 0.06em 0 rgba(255,255,255,0.45),
+            0.12em 0.12em 0 rgba(255,255,255,0.4),
+            0.18em 0.18em 0 rgba(255,255,255,0.35),
+            0.24em 0.24em 0 rgba(255,255,255,0.3),
+            0.3em 0.3em 0 rgba(255,255,255,0.25),
+            0.36em 0.36em 0 rgba(255,255,255,0.2),
+            0.42em 0.42em 0 rgba(255,255,255,0.15),
+            0.48em 0.48em 0 rgba(255,255,255,0.1);
+        margin-bottom: 0.35em;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+    .navItems {
+        font-size: 22px;
+        letter-spacing: 0.2em;
+        li {
+            display: inline-block;
+            width: 20%;
+            a {
+                text-decoration: none;
+                color: rgba(255,255,255,0.5);
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.centerCol {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    color: @teal;
+    &:hover {
+        color: darken(@teal, 10%);
+    }
+    &:visited {
+        color: @teal;
+    }
+}
+
+
+/*================================================*/
+/* WORK */
+/*================================================*/
+
+.workItems {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .workItem {
+        .transition-animation(all, 0.2s, ease-in);
+        order: 1;
+        background: rgba(255,255,255,0.7);
+        color: darken(@mid,10%);
+        width: 48%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        cursor: pointer;
+        max-height: 320px;
+
+        .workThumb {
+            margin: 0 auto;
+            max-width: 100%;
+            display: block;
+        }
+        .banner {
+            position: relative;
+        }
+        .title {
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            h4 {
+                font-weight: 300;
+                letter-spacing: 0.1em;
+            }
+            h3 {
+                font-size: 40px;
+                letter-spacing: -0.07em;
+                font-weight: 700;
+            }
+        }
+        .detail {
+            margin: 20px 5%;
+            p {
+                margin-bottom: 1em;
+            }
+        }
+    }
+    .workItem.expanded {
+        width: 100%;
+        max-height: 9999px;
+    }
+}
+
+.workMeta {
+    margin-top: 20px;
+
+    li:before {
+        font-family: icomoon;
+        margin-right: 5px;
+    }
+    .builtWith:before {
+        content: '\e08b';
+    }
+    .role:before {
+        content: '\e074';
+    }
+    .video:before {
+        content: '\e012';
+    }
+    .readMore:before {
+        content: '\e025';
+    }
+    .company:before {
+        content: '\e003';
+    }
+    .link:before {
+        content: '\e0c3';
+    }
+}

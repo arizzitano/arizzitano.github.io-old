@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Tomquest"
+date:   2012-09-01 00:00:00
+categories: work
+---
+
+<div class="banner">
+    <img src="/img/tomquestThumb.jpg" alt="Tomquest" class="workThumb"/>
+    <div class="title">
+        <h3>Tomquest</h3>
+        <h4>django app for citywide scavenger hunt</h4>
+    </div>
+</div>
+
+<div class="detail">
+    <p>
+        Tomquest was a city-wide scavenger hunt and surprise party I organized for my boyfriend Tom's 24th birthday. Ending a scavenger hunt with a surprise party was difficult: since I didn't know how long the hunt would take to complete, I couldn't set a specific time for the party guests to arrive. Furthermore, how could I hide clues in very public places (one ran as an advertisement in an alt-weekly newspaper) without curious randos figuring them out?
+    </p>
+    <p>
+        I wrote a bare-bones Django app to handle the logistics of the hunt. Clues, which were hidden throughout the city, included QR codes and passwords, which unlocked hints to find the following clues. As soon as Tom scanned a QR code for a particular clue, the app emailed all the party attendees to let them know of his progress.
+    </p>
+    <ul class="workMeta">
+        <li class="link"><a href="http://www.tomquest2012.com" target="_blank">http://www.tomquest2012.com</a></li>
+        <li class="builtWith">Django, jQuery Mobile</li>
+        <li class="role">creator</li>
+        <li class="readMore">django app post</li>
+        <li class="readMore">general audience post</li>
+    </ul>
+</div>

@@ -1,0 +1,11 @@
+name: Ari Rizzitano
+pygments: true
+
+safe:        false
+baseurl:    /
+url: http://localhost:4000
+
+source:      ./_source
+destination: ./_site
+plugins:     ./_plugins
+permalink:   /:categories/:title
