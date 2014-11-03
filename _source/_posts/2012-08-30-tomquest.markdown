@@ -22,7 +22,8 @@ categories: work
     </p>
     <ul class="workMeta">
         <li class="link"><a href="http://www.tomquest2012.com" target="_blank">http://www.tomquest2012.com</a></li>
-        <li class="builtWith">Django, jQuery Mobile</li>
+        <li class="github"><a href="https://github.com/arizzitano/django_scavenger">arizzitano/django_scavenger</a></li>
+        <li class="builtWith">Django, jQuery Mobile, QR codes, cardboard, wrapping paper, balloons, Camberville community spirit</li>
         <li class="role">creator</li>
         <li class="readMore">django app post</li>
         <li class="readMore">general audience post</li>
