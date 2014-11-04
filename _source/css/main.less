@@ -151,6 +151,10 @@ a {
     }
 }
 
+p {
+    margin-bottom: 1em;
+}
+
 
 /*================================================*/
 /* WORK */
@@ -200,9 +204,6 @@ a {
         }
         .detail {
             margin: 20px 5%;
-            p {
-                margin-bottom: 1em;
-            }
         }
     }
     .workItem.expanded {
@@ -243,5 +244,30 @@ a {
     }
     .github:before {
         content: '\e188';
+    }
+}
+
+/*================================================*/
+/* PAGES */
+/*================================================*/
+
+.page {
+    background: rgba(255,255,255,0.7);
+    color: darken(@mid,10%);
+    padding: 30px 8%;
+
+    img.left {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+
+    img.right {
+        float: right;
+        margin: 0 0 20px 20px;
+    }
+
+    img.center {
+        display: block;
+        margin: 20px auto;
     }
 }
