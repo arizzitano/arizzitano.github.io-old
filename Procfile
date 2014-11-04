@@ -1,1 +1,1 @@
-jekyll serve -P $PORT
+jekyll server -P $PORT
