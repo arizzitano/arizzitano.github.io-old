@@ -1,0 +1,10 @@
+{
+  "name": "arizzitano.github.io",
+  "author": "ari rizzitano",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jekyll": "0.4.2",
+    "grunt-recess": "1.0.0"
+  }
+}
