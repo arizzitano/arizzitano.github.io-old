@@ -6,7 +6,7 @@ categories: work
 ---
 
 <div class="banner">
-    <img src="/img/wordartThumb.png" alt="CSS3 WordArt" class="workThumb"/>
+    <img src="/img/wordartThumb.jpg" alt="CSS3 WordArt" class="workThumb"/>
     <div class="title">
         <h3>CSS3 WordArt</h3>
         <h4>1990s typography for the modern web</h4>

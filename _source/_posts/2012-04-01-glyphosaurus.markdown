@@ -6,7 +6,7 @@ categories: work
 ---
 
 <div class="banner">
-    <img src="/img/glyphosaurusThumb.png" alt="Glyphosaurus" class="workThumb"/>
+    <img src="/img/glyphosaurusThumb.jpg" alt="Glyphosaurus" class="workThumb"/>
     <div class="title">
         <h3>Glyphosaurus</h3>
         <h4>searchable letterform database</h4>

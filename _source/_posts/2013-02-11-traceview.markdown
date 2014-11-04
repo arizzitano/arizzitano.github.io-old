@@ -6,7 +6,7 @@ categories: work
 ---
 
 <div class="banner">
-    <img src="/img/traceviewThumb.png" alt="TraceView" class="workThumb"/>
+    <img src="/img/traceviewThumb.jpg" alt="TraceView" class="workThumb"/>
     <div class="title">
         <h3>TraceView</h3>
         <h4>application tracing & performance monitoring tool</h4>

@@ -6,7 +6,7 @@ categories: work
 ---
 
 <div class="banner">
-    <img src="/img/pageguideThumb.png" alt="Pageguide.js" class="workThumb"/>
+    <img src="/img/pageguideThumb.jpg" alt="Pageguide.js" class="workThumb"/>
     <div class="title">
         <h3>pageguide.js</h3>
         <h4>dynamic application onboarding & walkthroughs</h4>
