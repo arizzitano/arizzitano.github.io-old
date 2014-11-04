@@ -1,5 +1,5 @@
 require "rack/jekyll"
-require "rubygems"
+require "yaml"
 require "bundler"
 Bundler.require
 
