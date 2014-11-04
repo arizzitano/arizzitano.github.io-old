@@ -1,5 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
- gem "github-pages"
+ gem "jekyll"
  gem "therubyracer"
+ gem "jekyll-less"
+ gem "rack-jekyll"
