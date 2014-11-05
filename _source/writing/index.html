@@ -1,0 +1,11 @@
+---
+layout: page
+title: ari rizzitano | writing
+active_page: 'writing'
+---
+
+<ul class="writingList">
+{% for post in site.categories.writing %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
