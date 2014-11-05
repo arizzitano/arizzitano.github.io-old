@@ -40,28 +40,6 @@ ul {
 html, body {
     height: 100%;
 }
-// @font-face {
-//     font-family: 'icomoon';
-//     src:url('fonts/icomoon.eot?scmtzt');
-//     src:url('fonts/icomoon.eot?#iefixscmtzt') format('embedded-opentype'),
-//         url('fonts/icomoon.woff?scmtzt') format('woff'),
-//         url('fonts/icomoon.ttf?scmtzt') format('truetype'),
-//         url('fonts/icomoon.svg?scmtzt#icomoon') format('svg');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-// .icon () {
-//     font-family: 'icomoon';
-//     speak: none;
-//     font-style: normal;
-//     font-weight: normal;
-//     font-variant: normal;
-//     text-transform: none;
-//     line-height: 1;
-//     /* Better Font Rendering =========== */
-//     -webkit-font-smoothing: antialiased;
-//     -moz-osx-font-smoothing: grayscale;
-// }
 
 /*================================================*/
 /* UNIVERSAL */
@@ -247,29 +225,33 @@ footer {
     margin-top: 20px;
 
     li:before {
-        font-family: icomoon;
+        display: inline-block;
+        font: normal normal normal 18px/1 FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         margin-right: 5px;
     }
     .builtWith:before {
-        content: '\e08b';
+        content: '\f0ad';
     }
     .role:before {
-        content: '\e074';
+        content: '\f007';
     }
     .video:before {
-        content: '\e012';
+        content: '\f008';
     }
     .readMore:before {
-        content: '\e025';
+        content: '\f0f6';
     }
     .company:before {
-        content: '\e003';
+        content: '\f0b1';
     }
     .link:before {
-        content: '\e0c3';
+        content: '\f0ac';
     }
     .github:before {
-        content: '\e188';
+        content: '\f113';
     }
 }
 
