@@ -3,6 +3,7 @@ layout: post
 title:  "Tomquest: How I Used Django to Throw a Kickass Party"
 date:   2012-09-05
 categories: writing
+summary: "Rundown of django_scavenger, the Django app I wrote for creating secure, customizable scavenger hunts, such as Tomquest."
 ---
 
 [Tomquest](http://www.tomquest2012.com/) is a city-wide scavenger hunt that I built specifically for my boyfriend Tom's 24th birthday. To handle the clues, I built a Django app that Tom accessed from his phone while on the hunt. I've been putting together scavenger hunts since I was a kid – sending my little brother around the house, entertaining friends at birthday parties, keeping kids busy at summer camp – and I drew inspiration from all of these hunts when coming up with the framework for Tomquest.

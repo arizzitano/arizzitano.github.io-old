@@ -3,6 +3,7 @@ layout: post
 title:  "Silence: An Experiment in Selective Browsing"
 date:   2012-08-21
 categories: writing
+summary: "Silence is a browser extension I wrote to strip out some of the nastiest parts of the web: comments sections."
 ---
 
 I hate comments sections. More often than not, they depress me and remind me of how horrible people can be. The anonymity means people can be as cruel and as crude as they want with no fear of repercussions, and the brevity and informality leads to unnecessary harshness and exaggeration. It's not that I can't handle opposition, argument, or profanity – it's that I just cannot stand the overwhelming negativity and childishness that tends to ooze from comments sections.

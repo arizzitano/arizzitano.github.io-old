@@ -3,6 +3,7 @@ layout: post
 title:  "The Comments are Broken"
 date:   2012-09-18
 categories: writing
+summary: "Rant about how horrible comments sections are, and a plea to excise them from news outlets."
 ---
 
 Internet, we need to talk about comments. The lowly comments section, intending to provide a democratic arena for informally expressing one's opinions, has become a petri dish for racism, sexism, homophobia, partisan hatred, and general consequence-free mudslinging.

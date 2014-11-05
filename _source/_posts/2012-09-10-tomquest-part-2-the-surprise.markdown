@@ -3,6 +3,7 @@ layout: post
 title:  "Tomquest Part 2: The Surprise"
 date:   2012-09-10
 categories: writing
+summary: "Details about Tomquest, a birthday scavenger hunt across Cambridge and Somerville, powered by Django."
 ---
 
 My boyfriend Tom's birthday was last week; mine was the week before. I'd been stuck trying to figure out what to do for his birthday for months. I had lots of ideas, but none of them were perfect. When Tom surprised me with a trip to San Francisco, that's when I knew it was time to pull out the big guns. It was time for Tomquest.

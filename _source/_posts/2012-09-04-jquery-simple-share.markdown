@@ -3,6 +3,7 @@ layout: post
 title:  "jQuery Simple Share"
 date:   2012-09-04
 categories: writing
+summary: "Simple Share is a tool I wrote while at Upstatement to create attractive, customizable social share buttons intended for client work."
 ---
 
 Social buttons tend to suck. They're ugly, uncustomizable, they slow down page load, and people don't really use them. If you do things by the book and use services' official buttons, they drag in crufty iframes and then you're stuck with the default button style. You can circumvent this by building your own buttons, but it's not easy. The services don't publish their share URLs, and you'll most likely have to create separate images for each button. If you make custom buttons for each site, that's a ton of wasted time.

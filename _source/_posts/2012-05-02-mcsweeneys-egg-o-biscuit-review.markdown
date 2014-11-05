@@ -3,6 +3,7 @@ layout: post
 title:  "McSweeney's Egg O'Biscuit Review"
 date:   2012-05-02
 categories: writing
+summary: "A humor piece I wrote for McSweeney's about my favorite cafeteria snack, the Egg O'Biscuit. (Yeah, I started college as an English major.)"
 ---
 
 I wrote a piece a long time ago about my favorite college dining hall food, the Egg O'Biscuit. McSweeney's published it in the [Reviews of New Food](http://www.mcsweeneys.net/articles/the-tenth-batch-2012)! The piece is also included below:

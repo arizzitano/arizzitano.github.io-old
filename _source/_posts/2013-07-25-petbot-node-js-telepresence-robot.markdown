@@ -3,6 +3,7 @@ layout: post
 title:  "Introducing PETBOT: A Node.js Telepresence Robot"
 date:   2013-07-25
 categories: writing
+summary: "How I designed, hacked, modded, programmed, and built a telepresence robot that runs on Node.js, a Raspberry Pi, and plenty of love."
 ---
 
 _This post [originally appeared](http://www.appneta.com/blog/telepresence-robot/) on the AppNeta blog._

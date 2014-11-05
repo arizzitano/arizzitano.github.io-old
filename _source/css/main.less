@@ -292,16 +292,29 @@ p {
         margin: 0.5em 0;
     }
 
-    ul, ol {
-        margin-left: 2em;
-        margin-bottom: 1em;
+    .post {
+        ul, ol {
+            margin-left: 2em;
+            margin-bottom: 1em;
+        }
+
+        ul {
+            list-style: disc inside none;
+        }
+
+        ol {
+            list-style: decimal inside none;
+        }
     }
 
-    ul {
-        list-style: disc inside none;
-    }
+    .writingList {
+        li {
+            margin-bottom: 1em;
 
-    ol {
-        list-style: decimal inside none;
+            a {
+                font-size: 1.5em;
+                display: block;
+            }
+        }
     }
 }
