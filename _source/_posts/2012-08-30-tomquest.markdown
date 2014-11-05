@@ -25,7 +25,7 @@ categories: work
         <li class="github"><a href="https://github.com/arizzitano/django_scavenger">arizzitano/django_scavenger</a></li>
         <li class="builtWith">Django, jQuery Mobile, QR codes, cardboard, wrapping paper, balloons, Camberville community spirit</li>
         <li class="role">creator</li>
-        <li class="readMore">django app post</li>
-        <li class="readMore">general audience post</li>
+        <li class="readMore"><a href="{% post_url 2012-09-05-tomquest-how-i-used-django-to-throw-a-kickass-party %}">How I built the Django app</a></li>
+        <li class="readMore"><a href="{% post_url 2012-09-10-tomquest-part-2-the-surprise %}">How I engineered the scavenger hunt</a></li>
     </ul>
 </div>

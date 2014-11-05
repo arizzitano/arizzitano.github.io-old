@@ -20,5 +20,6 @@ categories: work
     <ul class="workMeta">
         <li class="builtWith">Node.js, TBone.js, socket.io, plywood, solder, love</li>
         <li class="role">creator</li>
+        <li class="readMore"><a href="{% post_url 2013-07-25-petbot-node-js-telepresence-robot %}">How I built PETBOT</a></li>
     </ul>
 </div>
