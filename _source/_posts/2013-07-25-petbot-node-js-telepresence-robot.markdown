@@ -13,7 +13,7 @@ Recently we added a new member to our engineering team. This is PETBOT, aka Prov
 
 Here it is in action:
 
-<div class="video">
+<div class="embed">
 	<iframe width="560" height="315" src="//www.youtube.com/embed/Um5w7s2qQt8" frameborder="0" allowfullscreen></iframe>
 </div>
 

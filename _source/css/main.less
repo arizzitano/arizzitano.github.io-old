@@ -255,6 +255,12 @@ p {
     background: rgba(255,255,255,0.7);
     color: darken(@mid,10%);
     padding: 30px 8%;
+    max-width: 800px;
+    margin: 0 auto;
+
+    img {
+        max-width: 100%;
+    }
 
     img.left {
         float: left;
@@ -266,8 +272,36 @@ p {
         margin: 0 0 20px 20px;
     }
 
-    img.center {
+    img.center, .embed {
+        text-align: center;
         display: block;
         margin: 20px auto;
+    }
+
+    .twitter-tweet {
+        margin: 0 auto !important;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 0.4em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+    }
+
+    ul, ol {
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    ul {
+        list-style: disc inside none;
+    }
+
+    ol {
+        list-style: decimal inside none;
     }
 }
