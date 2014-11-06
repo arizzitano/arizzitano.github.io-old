@@ -1,32 +1,22 @@
 ---
 layout: post
 title:  "Tomquest"
+subtitle: "django app for citywide scavenger hunt"
+image: "tomquestThumb.jpg"
 date:   2012-09-01 00:00:00
 categories: work
 size: 1
 ---
 
-<div class="banner">
-    <img src="/img/tomquestThumb.jpg" alt="Tomquest" class="workThumb"/>
-    <div class="title">
-        <h3>Tomquest</h3>
-        <h4>django app for citywide scavenger hunt</h4>
-    </div>
-</div>
+Tomquest was a city-wide scavenger hunt and surprise party I organized for my boyfriend Tom's 24th birthday. Ending a scavenger hunt with a surprise party was difficult: since I didn't know how long the hunt would take to complete, I couldn't set a specific time for the party guests to arrive. Furthermore, how could I hide clues in very public places (one ran as an advertisement in an alt-weekly newspaper) without curious randos figuring them out?
 
-<div class="detail">
-    <p>
-        Tomquest was a city-wide scavenger hunt and surprise party I organized for my boyfriend Tom's 24th birthday. Ending a scavenger hunt with a surprise party was difficult: since I didn't know how long the hunt would take to complete, I couldn't set a specific time for the party guests to arrive. Furthermore, how could I hide clues in very public places (one ran as an advertisement in an alt-weekly newspaper) without curious randos figuring them out?
-    </p>
-    <p>
-        I wrote a bare-bones Django app to handle the logistics of the hunt. Clues, which were hidden throughout the city, included QR codes and passwords, which unlocked hints to find the following clues. As soon as Tom scanned a QR code for a particular clue, the app emailed all the party attendees to let them know of his progress.
-    </p>
-    <ul class="workMeta">
-        <li class="link"><a href="http://www.tomquest2012.com" target="_blank">http://www.tomquest2012.com</a></li>
-        <li class="github"><a href="https://github.com/arizzitano/django_scavenger">arizzitano/django_scavenger</a></li>
-        <li class="builtWith">Django, jQuery Mobile, QR codes, cardboard, wrapping paper, balloons, Camberville community spirit</li>
-        <li class="role">creator</li>
-        <li class="readMore"><a href="{% post_url 2012-09-05-tomquest-how-i-used-django-to-throw-a-kickass-party %}">How I built the Django app</a></li>
-        <li class="readMore"><a href="{% post_url 2012-09-10-tomquest-part-2-the-surprise %}">How I engineered the scavenger hunt</a></li>
-    </ul>
-</div>
+I wrote a bare-bones Django app to handle the logistics of the hunt. Clues, which were hidden throughout the city, included QR codes and passwords, which unlocked hints to find the following clues. As soon as Tom scanned a QR code for a particular clue, the app emailed all the party attendees to let them know of his progress.
+
+<ul class="workMeta">
+    <li class="link"><a href="http://www.tomquest2012.com" target="_blank">http://www.tomquest2012.com</a></li>
+    <li class="github"><a href="https://github.com/arizzitano/django_scavenger">arizzitano/django_scavenger</a></li>
+    <li class="builtWith">Django, jQuery Mobile, QR codes, cardboard, wrapping paper, balloons, Camberville community spirit</li>
+    <li class="role">creator</li>
+    <li class="readMore"><a href="{% post_url 2012-09-05-tomquest-how-i-used-django-to-throw-a-kickass-party %}">How I built the Django app</a></li>
+    <li class="readMore"><a href="{% post_url 2012-09-10-tomquest-part-2-the-surprise %}">How I engineered the scavenger hunt</a></li>
+</ul>

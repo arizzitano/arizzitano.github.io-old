@@ -1,26 +1,17 @@
 ---
 layout: post
 title:  "PETBOT"
+subtitle: "raspberry pi-powered telepresence robot"
+image: "petbotThumb.jpg"
 date:   2013-07-25
 categories: work
 size: 1
 ---
 
-<div class="banner">
-    <img src="/img/petbotThumb.jpg" alt="PETBOT" class="workThumb"/>
-    <div class="title">
-        <h3>PETBOT</h3>
-        <h4>raspberry pi-powered telepresence robot</h4>
-    </div>
-</div>
+PETBOT is a low-budget telepresence robot I built for the AppNeta office, consisting of an iPad mounted on a lightweight chassis powered by a toy RC car. A Raspberry Pi wired to the car's controller catches the signals and translates them to low-level directions.
 
-<div class="detail">
-    <p>
-        PETBOT is a low-budget telepresence robot I built for the AppNeta office, consisting of an iPad mounted on a lightweight chassis powered by a toy RC car. A Raspberry Pi wired to the car's controller catches the signals and translates them to low-level directions.
-    </p>
-    <ul class="workMeta">
-        <li class="builtWith">Node.js, TBone.js, socket.io, plywood, solder, love</li>
-        <li class="role">creator</li>
-        <li class="readMore"><a href="{% post_url 2013-07-25-petbot-node-js-telepresence-robot %}">How I built PETBOT</a></li>
-    </ul>
-</div>
+<ul class="workMeta">
+    <li class="builtWith">Node.js, TBone.js, socket.io, plywood, solder, love</li>
+    <li class="role">creator</li>
+    <li class="readMore"><a href="{% post_url 2013-07-25-petbot-node-js-telepresence-robot %}">How I built PETBOT</a></li>
+</ul>

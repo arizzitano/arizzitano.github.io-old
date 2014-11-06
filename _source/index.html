@@ -6,9 +6,19 @@ active_page: 'home'
 
 <div class="work">
   <ul class="workItems flex">
-    {% for post in site.categories.work %}
-        <li class="workItem" data-order="{{ forloop.index }}">
-            {{post.content}}
+    {% for post in site.categories.work%}
+        <li class="workItem size-{{post.size}}" data-order="{{forloop.index}}">
+        	<div class="banner">
+			    <img src="/img/{{post.image}}" alt="{{post.title}}" class="workThumb"/>
+			    <div class="title">
+			        <h3>{{post.title}}</h3>
+			        <h4>{{post.subtitle}}</h4>
+			    </div>
+			</div>
+
+			<div class="detail">
+			    {{post.content}}
+			</div>
         </li>
     {% endfor %}
   </ul>
