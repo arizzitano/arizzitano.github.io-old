@@ -7,8 +7,6 @@
                     parentClasses.remove('expanded');
                 } else {
                     parentClasses.add('expanded');
-                    var order = closest.dataset.order;
-                    //closest.style.order -= 2;
                 }
             }
         }

@@ -3,6 +3,7 @@ layout: post
 title:  "Glyphosaurus"
 date:   2012-04-01 00:00:00
 categories: work
+size: large
 ---
 
 <div class="banner">

@@ -3,6 +3,7 @@ layout: post
 title:  "CSS3 WordArt"
 date:   2014-05-03
 categories: work
+size: large
 ---
 
 <div class="banner">
