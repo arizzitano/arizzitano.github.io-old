@@ -15,7 +15,7 @@ Recently we added a new member to our engineering team. This is PETBOT, aka Prov
 Here it is in action:
 
 <div class="embed">
-	<iframe width="560" height="315" src="//www.youtube.com/embed/Um5w7s2qQt8" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/Um5w7s2qQt8" frameborder="0" allowfullscreen></iframe>
 </div>
 
 It's a telepresence robot I built for our office, consisting of an iPad mounted on a lightweight chassis powered by an RC car. To operate it, you open up a video chat session with the iPad, then control the robot from your browser using the web interface.
@@ -113,5 +113,5 @@ Circuit:
 * Mini breadboard
 * Hookup wire & solder
 * EITHER:
-	* Arduino (I used my old Duemilanove) & USB cable, or
-	* Raspberry Pi with wifi dongle & power supply (USB cable/wallwart or battery pack like [this one](http://www.amazon.com/Gomadic-Advanced-Raspberry-Battery-Charge/dp/B00BR22W0Q/))
+    * Arduino (I used my old Duemilanove) & USB cable, or
+    * Raspberry Pi with wifi dongle & power supply (USB cable/wallwart or battery pack like [this one](http://www.amazon.com/Gomadic-Advanced-Raspberry-Battery-Charge/dp/B00BR22W0Q/))

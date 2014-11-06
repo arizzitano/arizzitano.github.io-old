@@ -15,8 +15,8 @@ TraceView was a uniquely exciting place to work because I learned a TON about cu
 I worked on the application team as a full-stack engineer, but did most of my work on the frontend. On the server side, my projects included request trace analysis, MVC development in Pylons, database schema design, a JSON parser/lexer. On the client side, I architected & built autosynced RESTful JS models, designed and built data-heavy visualizations, modularized templates, established a style guide and genericized sitewide CSS. I also did significant design and UX work for new features.
 
 <ul class="workMeta">
-	<li class="link"><a href="http://www.appneta.com/products/traceview/" target="_blank">TraceView Product Page</a></li>
-	<li class="company">AppNeta</li>
-	<li class="builtWith">JS, D3, TBone.js, Python, Pylons, SQLAlchemy, MySQL, Cassandra</li>
-	<li class="role">full-stack software engineer</li>
+    <li class="link"><a href="http://www.appneta.com/products/traceview/" target="_blank">TraceView Product Page</a></li>
+    <li class="company">AppNeta</li>
+    <li class="builtWith">JS, D3, TBone.js, Python, Pylons, SQLAlchemy, MySQL, Cassandra</li>
+    <li class="role">full-stack software engineer</li>
 </ul>

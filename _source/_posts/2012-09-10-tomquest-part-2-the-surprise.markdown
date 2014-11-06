@@ -33,8 +33,8 @@ The hardest one to do, surprisingly enough, was the Olecito clue. Olecito has a 
 Lucy at Voltage Coffee was psyched about the hunt. Tom is a familiar face at Voltage, so she got the baristas to give him a special greeting (and a birthday sticky bun!). The 1369 baristas had a shift change between the time I left the clue and the time Tom showed up, but luckily I managed to give them a call before he showed up. Tom found the Bukowski clue quite amusing:
 
 <div class="embed">
-	<blockquote class="twitter-tweet" lang="en"><p>Best scavenger hunt ever... [pic] — <a href="http://t.co/oXVZRyq2">http://t.co/oXVZRyq2</a></p>&mdash; Tom Petr (@tpetr) <a href="https://twitter.com/tpetr/status/239481999574855680">August 25, 2012</a></blockquote>
-	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <blockquote class="twitter-tweet" lang="en"><p>Best scavenger hunt ever... [pic] — <a href="http://t.co/oXVZRyq2">http://t.co/oXVZRyq2</a></p>&mdash; Tom Petr (@tpetr) <a href="https://twitter.com/tpetr/status/239481999574855680">August 25, 2012</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 ### The Dig
@@ -48,8 +48,8 @@ Here's the Dig ad in all its glory:
 Tom was quite pleased:
 
 <div class="embed">
-	<blockquote class="twitter-tweet" lang="en"><p>Part of the hunt is in the Dig? Mind blown.</p>&mdash; Tom Petr (@tpetr) <a href="https://twitter.com/tpetr/status/239492078319595520">August 25, 2012</a></blockquote>
-	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <blockquote class="twitter-tweet" lang="en"><p>Part of the hunt is in the Dig? Mind blown.</p>&mdash; Tom Petr (@tpetr) <a href="https://twitter.com/tpetr/status/239492078319595520">August 25, 2012</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 Huge thanks to Jeff Lawrence and Scott Murry of the Dig for making this happen!
