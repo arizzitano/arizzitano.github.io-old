@@ -3,7 +3,7 @@ layout: post
 title:  "TraceView"
 date:   2013-02-11
 categories: work
-size: large
+size: 1
 ---
 
 <div class="banner">

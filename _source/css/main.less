@@ -179,18 +179,15 @@ footer {
         .transition-animation(all, 0.2s, ease-in);
         background: rgba(255,255,255,0.7);
         color: darken(@mid,10%);
-        width: 48%;
         margin-right: 2%;
         margin-bottom: 20px;
         overflow: hidden;
         cursor: pointer;
-        max-height: 320px;
 
         .workThumb {
             margin: 0 auto;
             max-width: 100%;
             display: block;
-            height: 320px;
         }
         .banner {
             position: relative;
@@ -213,12 +210,30 @@ footer {
             }
         }
         .detail {
-            margin: 20px 5%;
+            height: 0px;
+            overflow: hidden;
+            .inner {
+                padding: 20px 5%;
+            }
+        }
+        &.size-1 {
+            order: 1;
+            width: 48%;
+            max-height: 320px;
+        }
+        &.size-2 {
+            order: 2;
+            width: 31%;
+            max-height: 207px;
         }
     }
     .workItem.expanded {
         width: 100%;
         max-height: 9999px;
+
+        .detail {
+            height: auto;
+        }
 
         .workThumb {
             height: auto;

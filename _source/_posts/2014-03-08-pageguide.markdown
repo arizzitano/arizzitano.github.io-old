@@ -3,7 +3,7 @@ layout: post
 title:  "Pageguide.js"
 date:   2014-03-18
 categories: work
-size: large
+size: 1
 ---
 
 <div class="banner">
