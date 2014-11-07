@@ -9,7 +9,7 @@ active_page: 'home'
     {% for post in site.categories.work%}
         <li class="workItem size-{{post.size}}" data-order="{{forloop.index}}">
             <div class="banner">
-                <img src="/img/{{post.image}}" alt="{{post.title}}" class="workThumb"/>
+                <img src="/img/work/{{post.image}}" alt="{{post.title}}" class="workThumb"/>
                 <div class="title">
                     <h3>{{post.title}}</h3>
                     <h4>{{post.subtitle}}</h4>
@@ -17,7 +17,9 @@ active_page: 'home'
             </div>
 
             <div class="detail">
-                {{post.content}}
+                <div class="inner">
+                    {{post.content}}
+                </div>
             </div>
         </li>
     {% endfor %}
