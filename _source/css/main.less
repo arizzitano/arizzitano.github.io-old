@@ -204,7 +204,6 @@ footer {
                 letter-spacing: 0.1em;
             }
             h3 {
-                font-size: 40px;
                 letter-spacing: -0.07em;
                 font-weight: 700;
             }
@@ -220,11 +219,17 @@ footer {
             order: 1;
             width: 48%;
             max-height: 320px;
+            h3 {
+                font-size: 40px;
+            }
         }
         &.size-2 {
             order: 2;
             width: 31%;
             max-height: 207px;
+            h3 {
+                font-size: 30px;
+            }
         }
     }
     .workItem.expanded {
@@ -273,6 +278,12 @@ footer {
     }
     .github:before {
         content: '\f113';
+    }
+    .slideshare:before {
+        content: '\f1e7';
+    }
+    .game:before {
+        content: '\f11b';
     }
 }
 

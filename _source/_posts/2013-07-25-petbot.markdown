@@ -8,10 +8,13 @@ categories: work
 size: 1
 ---
 
-PETBOT is a low-budget telepresence robot I built for the AppNeta office, consisting of an iPad mounted on a lightweight chassis powered by a toy RC car. A Raspberry Pi wired to the car's controller catches the signals and translates them to low-level directions.
+PETBOT is a low-budget telepresence robot I built for the AppNeta office, consisting of an iPad mounted on a lightweight chassis powered by a toy RC car. To move PETBOT, users control it from a web UI using the arrow keys. Its low latency, long battery life, and especially the flashing police light make PETBOT a fun and easy way for remote employees to telecommute into the office.
+
+The car is controlled by a radio transmitter wired to a Raspberry Pi running a local node.js server. Commands are sent via socket.io through the web UI & second node.js server hosted remotely on Heroku. The local server connects to the remote server as a socket.io client, thus allowing commands to be sent to the Pi from anywhere in the world with very low latency.
 
 <ul class="workMeta">
     <li class="builtWith">Node.js, TBone.js, socket.io, plywood, solder, love</li>
     <li class="role">creator</li>
+    <li class="video"><a href="http://www.youtube.com/watch?v=Um5w7s2qQt8" target="_blank">PETBOT in action</a></li>
     <li class="readMore"><a href="{% post_url 2013-07-25-petbot-node-js-telepresence-robot %}">How I built PETBOT</a></li>
 </ul>
