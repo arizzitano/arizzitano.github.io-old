@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rock 'Em Socket.IO Bots"
-subtitle: "talk @ Boston Node.js"
+subtitle: "presentation @ Boston Node.js"
 image: "rockemThumb.jpg"
 date:   2013-09-05 00:00:00
 categories: work

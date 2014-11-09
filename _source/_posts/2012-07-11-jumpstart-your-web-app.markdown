@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jumpstart Your Web App"
-subtitle: "talk @ Harvard WWW"
+subtitle: "presentation @ Harvard WWW"
 image: "jumpstartThumb.jpg"
 date:   2012-07-11 00:00:00
 categories: work
