@@ -5,7 +5,7 @@ subtitle: "game based on the album"
 image: "yoshimiThumb.jpg"
 date:   2010-05-02 00:00:00
 categories: work
-size: 2
+size: 3
 ---
 
 Yoshimi Battles the Pink Robots was a student project, a collaboration among myself, <a href="http://www.macherie-edwards.com/" target="_blank">MaCherie Edwards</a>, and <a href="http://roseheydt.tumblr.com/">Rose Heydt</a> for CS 349: Games. It's our interpretation of the Flaming Lips' album of the same name: the story of a girl named Yoshimi tasked with saving the world from killer robots. The game allows players to experience the album first-hand from Yoshimi's perspective while the tracks play alongside it.

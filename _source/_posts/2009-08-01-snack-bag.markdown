@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Snack Bag"
+subtitle: "snack wrapper handbag"
+image: "snackbagThumb.jpg"
+date:   2009-08-01 00:00:00
+categories: work
+size: 3
+---
+
+The snack bag is a handbag of mine, constructed from hundreds (830, to be exact) of cellophane wrappers from candy, chips, and other snacks. I folded the wrappers together into chains, sewed the chains together into sheets, and then sewed the sheets together into a bag. I added a zipper and riveted on some handles. I made it in 2009; it is still in excellent shape today!
+
+During the summers while I was in high school and college, I taught various courses at College for Kids, a summer enrichment program at Westfield State College. One such course was Trashin' Fashion, wherein I taught kids how to make clothing, jewelry, and accessories from things they could find around the house. One of the class projects was a folded snack wrapper bracelet similar to gum wrapper chains. My students and I had a lot of fun making these. As I observed the bracelets, I realized they could be sewn together to make sheets. That's how I got the idea for the bag.
+
+Disclaimer: I know you can buy these bags at museums now. I had never seen one before I designed and made my bag.
+
+<ul class="workMeta">
+    <li class="builtWith">snack wrappers, thread, zipper, webbing, rivets, endless patience</li>
+    <li class="role">creator</li>
+</ul>
