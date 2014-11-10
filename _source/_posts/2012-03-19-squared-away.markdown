@@ -14,7 +14,8 @@ Most of my work on Squared Away was on the calculators and graphs. We did not us
 
 <ul class="workMeta">
     <li class="link"><a href="http://squaredaway.bc.edu" target="_blank">http://squaredaway.bc.edu</a></li>
-    <li class="builtWith">JS, jQuery, PHP, Sphinx, SASS</li>
+    <li class="company">Upstatement</li>
     <li class="role">contributing developer</li>
+    <li class="builtWith">JS, jQuery, PHP, Sphinx, SASS</li>
     <li class="readMore"><a href="http://upstatement.com/portfolio/boston-colleges-squared-away">Upstatement portfolio writeup</a></li>
 </ul>

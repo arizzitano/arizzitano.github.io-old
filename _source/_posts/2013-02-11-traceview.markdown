@@ -17,6 +17,6 @@ I worked on the application team as a full-stack engineer, but did most of my wo
 <ul class="workMeta">
     <li class="link"><a href="http://www.appneta.com/products/traceview/" target="_blank">TraceView Product Page</a></li>
     <li class="company">AppNeta</li>
-    <li class="builtWith">JS, D3, TBone.js, Python, Pylons, SQLAlchemy, MySQL, Cassandra</li>
     <li class="role">full-stack software engineer</li>
+    <li class="builtWith">JS, D3, TBone.js, Python, Pylons, SQLAlchemy, MySQL, Cassandra</li>
 </ul>

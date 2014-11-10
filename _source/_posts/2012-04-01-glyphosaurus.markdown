@@ -15,7 +15,7 @@ The application is built on Django with masonry.js on the frontend. Users can au
 <ul class="workMeta">
     <li class="link"><a href="http://glyphosaurus.com" target="_blank">http://glyphosaurus.com</a></li>
     <li class="company">Upstatement</li>
-    <li class="builtWith">Django, masonry.js, PIL, OAuth, Phonegap</li>
     <li class="role">lead developer, project manager</li>
+    <li class="builtWith">Django, masonry.js, PIL, OAuth, Phonegap</li>
     <li class="readMore"><a href="http://upstatement.com/portfolio/glyphosaurus" target="_blank">Upstatement portfolio writeup</a></li>
 </ul>
