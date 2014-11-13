@@ -159,6 +159,17 @@ footer {
     }
 }
 
+/*================================================*/
+/* MIXINS */
+/*================================================*/
+
+.order (@n) {
+    -webkit-box-ordinal-group: @n;
+    -moz-box-ordinal-group: @n;
+    -ms-flex-order: @n;
+    -webkit-order: @n;
+    order: @n;
+}
 
 /*================================================*/
 /* WORK */
@@ -245,7 +256,7 @@ footer {
     max-height: none;
 }
 .size-1 {
-    order: 1;
+    .order(1);
     width: 48%; // 480px
     max-height: 320px;
     h3 {
@@ -253,7 +264,7 @@ footer {
     }
 }
 .size-2 {
-    order: 2;
+    .order(2);
     width: 31%; // 310px
     max-height: 207px;
     h3 {
@@ -261,7 +272,7 @@ footer {
     }
 }
 .size-3 {
-    order: 3;
+    .order(3);
     width: 23%; // 230px
     max-height: 153px;
     h3 {
